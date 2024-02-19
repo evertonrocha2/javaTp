@@ -12,6 +12,10 @@ public class Estudante {
         this.curso = curso;
         this.media = media;
     }
+    
+    public Estudante() {
+    	
+    }
 
     public String getNome() {
         return nome;
